@@ -13,6 +13,7 @@
 		47091CFF1C50B5FC009397D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47091CFD1C50B5FC009397D7 /* Main.storyboard */; };
 		47091D011C50B5FC009397D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47091D001C50B5FC009397D7 /* Assets.xcassets */; };
 		47091D041C50B5FC009397D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47091D021C50B5FC009397D7 /* LaunchScreen.storyboard */; };
+		47091D0E1C50B606009397D7 /* XImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 47091D0D1C50B606009397D7 /* XImagePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		47091D001C50B5FC009397D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47091D031C50B5FC009397D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47091D051C50B5FC009397D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47091D0C1C50B606009397D7 /* XImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XImagePicker.h; sourceTree = "<group>"; };
+		47091D0D1C50B606009397D7 /* XImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XImagePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		47091CF31C50B5FC009397D7 /* XImagePicker-Master */ = {
 			isa = PBXGroup;
 			children = (
+				47091D0B1C50B606009397D7 /* XImagePicker */,
 				47091CF71C50B5FC009397D7 /* AppDelegate.h */,
 				47091CF81C50B5FC009397D7 /* AppDelegate.m */,
 				47091CFA1C50B5FC009397D7 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				47091CF51C50B5FC009397D7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47091D0B1C50B606009397D7 /* XImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				47091D0C1C50B606009397D7 /* XImagePicker.h */,
+				47091D0D1C50B606009397D7 /* XImagePicker.m */,
+			);
+			path = XImagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				47091CFC1C50B5FC009397D7 /* ViewController.m in Sources */,
 				47091CF91C50B5FC009397D7 /* AppDelegate.m in Sources */,
+				47091D0E1C50B606009397D7 /* XImagePicker.m in Sources */,
 				47091CF61C50B5FC009397D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

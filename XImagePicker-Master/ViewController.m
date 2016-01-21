@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XImagePicker.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)onBtnClick:(UIButton *)sender {
+    [XImagePicker showImagePickerFromViewController:self allowsEditing:YES finishAction:^(UIImage *image) {
+        [sender setBackgroundImage:image forState:UIControlStateNormal];
+
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
